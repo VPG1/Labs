@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\star_line.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\star_line.dir/objects.a @CMakeFiles\star_line.dir\objects1.rsp
+C:\MinGW\mingw64\bin\g++.exe -g -shared -o libstar_line.dll -Wl,--out-implib,libstar_line.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\star_line.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\star_line.dir\linklibs.rsp

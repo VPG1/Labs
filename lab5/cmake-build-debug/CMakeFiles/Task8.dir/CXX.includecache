@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/dynamicLib/star_line.h
+
+../libs/input/input.h
+iostream
+-
+
+C:/Clion/labs/lab5/Tasks/Task8.cpp
+iostream
+-
+input.h
+C:/Clion/labs/lab5/Tasks/input.h
+star_line.h
+C:/Clion/labs/lab5/Tasks/star_line.h
+

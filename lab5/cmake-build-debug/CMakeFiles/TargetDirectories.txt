@@ -1,0 +1,12 @@
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task1.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task2.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task3.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task4.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task5.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task6.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task7.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/Task8.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/for_vector.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/star_line.dir
+C:/Clion/labs/lab5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
