@@ -8,7 +8,7 @@ int main(){
     int n, m; // n кол-во строк матрицы A   m кол-во столбцов матрицы A
     cout << "Enter the number of rows and columns of matrix A: ";
     while(!(cin >> n >> m) || n <= 0 || m <= 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }
@@ -25,7 +25,7 @@ int main(){
     for(int i = 0; i < n; ++i){
         for(int j = 0; j < m; ++j){
             while(!(cin >> A[i][j])){
-                cout << "Incorrect output. Try again." << endl;
+                cout << "Incorrect input. Try again." << endl;
                 cin.clear();
                 cin.ignore(32767, '\n');
                 i = j = 0;
@@ -36,7 +36,11 @@ int main(){
     // ввод размера матрицы B
     int l, k; // l кол-во строк матрицы B   k кол-во столбцов матрицы B 
     cout << "Enter the number of rows and columns of matrix B: ";
-    cin >> l >> k;
+    while(!(cin >> l >> k) || l <= 0 || k <= 0){
+        cout << "Incorrect input. Try again." << endl;
+        cin.clear();
+        cin.ignore(32767, '\n');
+    }
 
     int** B = (int**)malloc(l * sizeof(int*));
     for(int i = 0; i < l; ++i){
@@ -49,7 +53,7 @@ int main(){
     for(int i = 0; i < l; ++i){
         for(int j = 0; j < k; ++j){
             while(!(cin >> B[i][j])){
-                cout << "Incorrect output. Try again." << endl;
+                cout << "Incorrect input. Try again." << endl;
                 cin.clear();
                 cin.ignore(32767, '\n');
                 i = j = 0;

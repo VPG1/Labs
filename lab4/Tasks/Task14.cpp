@@ -7,7 +7,7 @@ int main(){
     int n, m;
     cout << "Enter the dimensions n and m of the n*m minefield: ";
     while(!(cin >> n >> m) || n <= 0 || m <= 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }
@@ -34,7 +34,7 @@ int main(){
         for(int j = 1; j < m + 1; ++j){
             cin >> field[i][j];
             while(field[i][j] != '.' && field[i][j] != '*'){
-                cout << "Incorrect output. Try again." << endl;
+                cout << "Incorrect input. Try again." << endl;
                 cin.clear();
                 cin.ignore(32767, '\n');
                 j = 0;

@@ -7,13 +7,13 @@ int main(){
     int n, i;
     cout << "Enter n: ";
     while(!(cin >> n) || n <= 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }
     cout << "Enter the order of the digits: ";
     while(!(cin >> i) || i < 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }

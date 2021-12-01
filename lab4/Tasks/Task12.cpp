@@ -32,7 +32,7 @@ int main(){
     int n;
     cout << "Enter size of array: ";
     while(!(cin >> n) || n <= 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }
@@ -42,7 +42,7 @@ int main(){
     cout << "Enter array:\n";
     for(int i = 0; i < n; ++i){
         while(!(cin >> array[i])){
-            cout << "Incorrect output. Try again." << endl;
+            cout << "Incorrect input. Try again." << endl;
             cin.clear();
             cin.ignore(32767, '\n');
             i = 0;

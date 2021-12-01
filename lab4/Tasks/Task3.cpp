@@ -7,7 +7,7 @@ int main(){
     cout << "Enter the number of rows and columns: ";
     int n, m;
     while(!(cin >> n >> m) || n <= 0 || m <= 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }
@@ -22,7 +22,7 @@ int main(){
     for(int i = 0; i < n; ++i){
         for(int j = 0; j < m; ++j){
             while(!(cin >> matrix[i][j])){
-                cout << "Incorrect output. Try again." << endl;
+                cout << "Incorrect input. Try again." << endl;
                 cin.clear();
                 cin.ignore(32767, '\n');
                 i = j = 0;

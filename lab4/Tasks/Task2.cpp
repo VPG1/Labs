@@ -7,7 +7,7 @@ int main(){
     cout << "Enter n: ";
     int n;
     while(!(cin >> n) || n <= 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }
@@ -17,7 +17,7 @@ int main(){
     for(int i = 0; i < n; ++i){
         for(int j = 0; j < n; ++j){
             while(!(cin >> a[i][j])){
-                cout << "Incorrect output. Try again." << endl;
+                cout << "Incorrect input. Try again." << endl;
                 cin.clear();
                 cin.ignore(32767, '\n');
                 i = j = 0;

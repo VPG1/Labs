@@ -5,7 +5,7 @@ int main(){
     int n;
     cout << "Enter n: ";
     while(!(cin >> n) || n <= 0){
-        cout << "Incorrect output. Try again." << endl;
+        cout << "Incorrect input. Try again." << endl;
         cin.clear();
         cin.ignore(32767, '\n');
     }
