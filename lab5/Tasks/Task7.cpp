@@ -14,6 +14,7 @@ unsigned long long modExp(const long long k, const long long n, const int m){
     return (z * z) % m;
 }
 
+
 bool condition1(const long long num){
 //    long long tenPowNineteen = 1;
 //    for(int i = 0; i < 19; ++i){

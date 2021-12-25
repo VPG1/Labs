@@ -1,0 +1,11 @@
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task1.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task2.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task3.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task4.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task5.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task6.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task7.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task8.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/task9.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Clion/labs/lab6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

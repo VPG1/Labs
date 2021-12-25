@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.20)
+project(lab6)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(task1 tasks/task1.cpp)
+add_executable(task2 tasks/task2.cpp)
+add_executable(task3 tasks/task3.cpp)
+add_executable(task4 tasks/task4.cpp)
+add_executable(task5 tasks/task5.cpp)
+add_executable(task6 tasks/task6.cpp)
+add_executable(task7 tasks/task7.cpp)
+add_executable(task8 tasks/task8.cpp)
+add_executable(task9 tasks/task9.cpp)
+
+include_directories(input)
