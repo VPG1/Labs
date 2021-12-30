@@ -62,7 +62,8 @@ CMAKE_BINARY_DIR = C:\Clion\labs\lab8\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lab8.dir/all
+all: CMakeFiles/task1.dir/all
+all: CMakeFiles/task2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +71,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lab8.dir/clean
+clean: CMakeFiles/task1.dir/clean
+clean: CMakeFiles/task2.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lab8.dir
+# Target rules for target CMakeFiles/task1.dir
 
 # All Build rule for target.
-CMakeFiles/lab8.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8.dir\build.make CMakeFiles/lab8.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8.dir\build.make CMakeFiles/lab8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Clion\labs\lab8\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target lab8"
-.PHONY : CMakeFiles/lab8.dir/all
+CMakeFiles/task1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Clion\labs\lab8\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target task1"
+.PHONY : CMakeFiles/task1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lab8.dir/rule: cmake_check_build_system
+CMakeFiles/task1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Clion\labs\lab8\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lab8.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/task1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Clion\labs\lab8\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/lab8.dir/rule
+.PHONY : CMakeFiles/task1.dir/rule
 
 # Convenience name for target.
-lab8: CMakeFiles/lab8.dir/rule
-.PHONY : lab8
+task1: CMakeFiles/task1.dir/rule
+.PHONY : task1
 
 # clean rule for target.
-CMakeFiles/lab8.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8.dir\build.make CMakeFiles/lab8.dir/clean
-.PHONY : CMakeFiles/lab8.dir/clean
+CMakeFiles/task1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/clean
+.PHONY : CMakeFiles/task1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task2.dir
+
+# All Build rule for target.
+CMakeFiles/task2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2.dir\build.make CMakeFiles/task2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2.dir\build.make CMakeFiles/task2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Clion\labs\lab8\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target task2"
+.PHONY : CMakeFiles/task2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Clion\labs\lab8\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/task2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Clion\labs\lab8\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/task2.dir/rule
+
+# Convenience name for target.
+task2: CMakeFiles/task2.dir/rule
+.PHONY : task2
+
+# clean rule for target.
+CMakeFiles/task2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2.dir\build.make CMakeFiles/task2.dir/clean
+.PHONY : CMakeFiles/task2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

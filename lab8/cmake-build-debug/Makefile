@@ -116,41 +116,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab8
+# Target rules for targets named task1
 
 # Build rule for target.
-lab8: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab8
-.PHONY : lab8
+task1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 task1
+.PHONY : task1
 
 # fast build rule for target.
-lab8/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8.dir\build.make CMakeFiles/lab8.dir/build
-.PHONY : lab8/fast
+task1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/build
+.PHONY : task1/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+#=============================================================================
+# Target rules for targets named task2
+
+# Build rule for target.
+task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 task2
+.PHONY : task2
+
+# fast build rule for target.
+task2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2.dir\build.make CMakeFiles/task2.dir/build
+.PHONY : task2/fast
+
+tasks/task1.obj: tasks/task1.cpp.obj
+.PHONY : tasks/task1.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8.dir\build.make CMakeFiles/lab8.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+tasks/task1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/tasks/task1.cpp.obj
+.PHONY : tasks/task1.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+tasks/task1.i: tasks/task1.cpp.i
+.PHONY : tasks/task1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8.dir\build.make CMakeFiles/lab8.dir/main.cpp.i
-.PHONY : main.cpp.i
+tasks/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/tasks/task1.cpp.i
+.PHONY : tasks/task1.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+tasks/task1.s: tasks/task1.cpp.s
+.PHONY : tasks/task1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab8.dir\build.make CMakeFiles/lab8.dir/main.cpp.s
-.PHONY : main.cpp.s
+tasks/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/tasks/task1.cpp.s
+.PHONY : tasks/task1.cpp.s
+
+tasks/task2.obj: tasks/task2.cpp.obj
+.PHONY : tasks/task2.obj
+
+# target to build an object file
+tasks/task2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2.dir\build.make CMakeFiles/task2.dir/tasks/task2.cpp.obj
+.PHONY : tasks/task2.cpp.obj
+
+tasks/task2.i: tasks/task2.cpp.i
+.PHONY : tasks/task2.i
+
+# target to preprocess a source file
+tasks/task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2.dir\build.make CMakeFiles/task2.dir/tasks/task2.cpp.i
+.PHONY : tasks/task2.cpp.i
+
+tasks/task2.s: tasks/task2.cpp.s
+.PHONY : tasks/task2.s
+
+# target to generate assembly for a file
+tasks/task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task2.dir\build.make CMakeFiles/task2.dir/tasks/task2.cpp.s
+.PHONY : tasks/task2.cpp.s
 
 # Help Target
 help:
@@ -160,10 +197,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lab8
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... task1
+	@echo ... task2
+	@echo ... tasks/task1.obj
+	@echo ... tasks/task1.i
+	@echo ... tasks/task1.s
+	@echo ... tasks/task2.obj
+	@echo ... tasks/task2.i
+	@echo ... tasks/task2.s
 .PHONY : help
 
 
